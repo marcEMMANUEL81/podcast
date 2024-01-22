@@ -30,13 +30,13 @@ function App() {
           </div>
         </div>
         <div className="absolute sm:bottom-[-120px] w-full sm:flex sm:justify-center">
-          <div className="sm:flex sm:w-5/6 px-4 rounded-2xl bg-white">
+          <div className="sm:flex sm:justify-between sm:w-5/6 shadow-lg rounded-2xl bg-white">
             <img
               src={podcast}
-              className="lg:flex hidden rounded-l-2xl h-full w-56 object-cover"
+              className="lg:flex hidden rounded-l-2xl h-full w-60 object-cover"
               alt=""
             />
-            <div className="sm:px-11 py-5 sm:w-5/6">
+            <div className="sm:px-11 py-5">
               <p className="text-3xl font-bold">
                 VITIB levier du developpement durable et de l'innovation technologique en Côte d'ivoire
               </p>
