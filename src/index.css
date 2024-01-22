@@ -33,3 +33,24 @@ audio::-webkit-media-controls {
   align-items: center;
   justify-content: center;
 }
+
+.barre {
+  position: relative;
+}
+
+.barre::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  background-color: orange;
+  height: 4px;
+  border-radius: 4px;
+  transition: .7s;
+}
+
+.barre:hover::before {
+  width: 100%;
+  transition: .7s;
+}
