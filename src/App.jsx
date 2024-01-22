@@ -17,7 +17,7 @@ function App() {
       <section className="w-screen relative">
         <img src={banner} className="h-[650px] w-full object-cover" alt="" />
         <NavbarComponent />
-        <div className="lg:p-11 p-4 absolute top-[110px]">
+        <div className="lg:px-24 p-4 absolute top-[110px]">
           <p className="text-white [text-shadow:_2px_2px_4px_rgb(0_0_0_/_20%)] md:leading-[1.4em] leading-[1.4em] md:text-7xl text-6xl font-bold lg:w-[10em]">
             Nouvel épisode disponible
           </p>
@@ -38,10 +38,10 @@ function App() {
             />
             <div className="sm:px-11 py-5 sm:w-5/6">
               <p className="text-3xl font-bold">
-                Christelle & Lauraine: <br /> the nature of design
+                VITIB levier du developpement durable et de l'innovation technologique en Côte d'ivoire
               </p>
               <p className="text-basic mt-3 text-gray-600">
-                Episode 1 Microphone 0:13
+                Episode 1 podcast numéro 1
               </p>
               <ReactAudioPlayer
                 className="w-full mt-6 hover:animate-pulse"
@@ -58,27 +58,27 @@ function App() {
         <Carousel autoPlay className="md:w-3/5 w-5/6">
           <div>
             <img alt="" src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <p className="legend text-bold text-xl">Legend 1</p>
+            <p className="legend text-bold text-xl">Barro Anne Joëlle</p>
           </div>
           <div>
             <img alt="" src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <p className="legend text-bold text-xl">Legend 2</p>
+            <p className="legend text-bold text-xl">Béké Ogo Isaac</p>
           </div>
           <div>
             <img alt="" src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <p className="legend text-bold text-xl">Legend 3</p>
+            <p className="legend text-bold text-xl">Bini Abo</p>
           </div>
           <div>
             <img alt="" src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <p className="legend text-bold text-xl">Legend 3</p>
+            <p className="legend text-bold text-xl">Blé Baka Junio Cédric</p>
           </div>
           <div>
             <img alt="" src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <p className="legend text-bold text-xl">Legend 3</p>
+            <p className="legend text-bold text-xl">Brou Yao Marc-Emmanuel</p>
           </div>
           <div>
             <img alt="" src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <p className="legend text-bold text-xl">Legend 3</p>
+            <p className="legend text-bold text-xl">Camara Mahoua Aude Aymone Priscille</p>
           </div>
         </Carousel>
       </section>
