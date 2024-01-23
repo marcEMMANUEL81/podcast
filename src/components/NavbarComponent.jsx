@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logo.png"
 
 export default function NavbarComponent() {
   return (
@@ -10,8 +11,8 @@ export default function NavbarComponent() {
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8"
+              src={logo}
+              class="h-9"
               alt="Flowbite Logo"
             />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logo.png"
 
 export default function FooterComponent() {
   return (
@@ -9,7 +10,7 @@ export default function FooterComponent() {
             <div class="mb-6 md:mb-0">
               <a href="" class="flex items-center">
                 <img
-                  src="https://flowbite.com/docs/images/logo.svg"
+                  src={logo}
                   class="h-8 me-3"
                   alt="FlowBite Logo"
                 />
