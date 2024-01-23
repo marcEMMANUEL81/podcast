@@ -40,35 +40,35 @@ export default function NavbarComponent() {
             <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
               <li>
                 <a
-                  href="#"
+                  href="#home"
                   class="text-gray-900 dark:text-white barre"
                   aria-current="page"
                 >
-                  Home
+                  Accueil
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#podcast"
                   class="text-gray-900 dark:text-white barre"
                 >
-                  Company
+                  Podcast
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#team"
                   class="text-gray-900 dark:text-white barre"
                 >
-                  Team
+                  Équipe
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#news"
                   class="text-gray-900 dark:text-white barre"
                 >
-                  Features
+                  Nouveautés
                 </a>
               </li>
             </ul>

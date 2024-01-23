@@ -3,6 +3,10 @@
 @tailwind utilities;
 @import url("https://fonts.cdnfonts.com/css/poppins");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "poppins", sans-serif;
@@ -53,4 +57,16 @@ audio::-webkit-media-controls {
 .barre:hover::before {
   width: 100%;
   transition: .7s;
+}
+
+.thumb {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.thumb img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
 }
