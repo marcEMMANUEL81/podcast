@@ -11,6 +11,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import FooterComponent from "./components/FooterComponent";
 
+import barro from "./assets/images/barro.jpeg"
 import bini from "./assets/images/bini.png"
 import beke from "./assets/images/beke.png"
 import ble from "./assets/images/ble.png"
@@ -63,28 +64,28 @@ function App() {
         <p className="mb-11 p-2 text-center text-3xl font-bold mt-11">Participants aux podcast</p>
         <Carousel autoPlay className="md:w-3/5 w-5/6">
           <div>
-            <img alt="" src={ble} className="md:h-[700px] object-cover" />
-            <p className="legend text-bold text-xl">Barro Anne Joëlle</p>
+            <img alt="" src={barro} className="md:h-[700px] object-cover" />
+            <p className="legend text-bold text-xl">Barro Anne Joëlle, <br /> Docteur en Économie Numérique</p>
           </div>
           <div>
             <img alt="" src={beke} className="md:h-[700px] object-cover" />
-            <p className="legend text-bold text-xl">Béké Ogo Isaac</p>
+            <p className="legend text-bold text-xl">Béké Ogo Isaac, <br /> Directeur Général du VITIB</p>
           </div>
           <div>
             <img alt="" src={bini} className="md:h-[700px] object-cover" />
-            <p className="legend text-bold text-xl">Bini Abo</p>
+            <p className="legend text-bold text-xl">Bini Abo Kouamé, <br /> Directeur Général du VITIB</p>
           </div>
           <div>
             <img alt="" src={ble} className="md:h-[700px] object-cover" />
-            <p className="legend text-bold text-xl">Blé Baka Junio Cédric</p>
+            <p className="legend text-bold text-xl">Blé Baka Junior Cédric, <br /> Responsable des Bioechnologies</p>
           </div>
           <div>
             <img alt="" src={brou} className="md:h-[700px] object-cover" />
-            <p className="legend text-bold text-xl">Brou Yao Marc-Emmanuel</p>
+            <p className="legend text-bold text-xl">Brou Yao Marc-Emmanuel, <br /> Responsable du Département des Tecnologies de l'Information</p>
           </div>
           <div>
             <img alt="" src={aude} className="md:h-[700px] object-cover" />
-            <p className="legend text-bold text-xl">Camara Mahoua Aude Aymone Priscille</p>
+            <p className="legend text-bold text-xl">Camara Mahoua Aude Aymone Priscille, <br /> Responsable du Département Juridique et de la Conformité</p>
           </div>
         </Carousel>
       </section>
